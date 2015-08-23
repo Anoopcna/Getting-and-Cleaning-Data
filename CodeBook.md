@@ -4,6 +4,10 @@
 1)Subject-The Experiment is carried out on 30 different persons ,Hence the number from 1-30 represent 
           30 different Persons or experimental Object.
 
+
+
+
+
 2)Activity-Activity performed when the measurements where calculated, below are the type of activities.
 
           1 WALKING 
@@ -17,6 +21,7 @@
           5 STANDING
           
 6 LAYING
+
 
 
 
@@ -40,6 +45,9 @@
  fBodyGyro_meanFreq_Y          /fBodyGyro_meanFreq_Z          /fBodyAccMag_mean              /fBodyAccMag_std               /fBodyAccMag_meanFreq         
  fBodyBodyAccJerkMag_mean      /fBodyBodyAccJerkMag_std       /fBodyBodyAccJerkMag_meanFreq  /fBodyBodyGyroMag_mean         /fBodyBodyGyroMag_std         
  fBodyBodyGyroMag_meanFreq     /fBodyBodyGyroJerkMag_mean     /fBodyBodyGyroJerkMag_std      /fBodyBodyGyroJerkMag_meanFreq
+
+
+
 
 
 4) Explanation for the above different signals.
@@ -77,9 +85,10 @@ mean(): Mean value
 std(): Standard deviation
 
 
+
+
+
 5)Files used for the Process present inside the UCI HAR Dataset folder in the repository.
-
-
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
@@ -106,6 +115,8 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 
+
+
 6) The Final Averaged dataset is in the averages_Data which is then takien into a file named Tidy_Average_data.txt.
 
    The variables used in Script are as follows.
@@ -124,7 +135,18 @@ The following files are available for the train and test data. Their description
 
   Data-Data set with only the mean and  the standard deviation measures for the corresponceing features.
 
- averages_Data-The Final averaged Tidy Data set which calculates the mean for  corresponding subject and Activity across all the Measurements.
+  averages_Data-The Final averaged Tidy Data set which calculates the mean for  corresponding subject and Activity across all the Measurements.
+
+
+
+
+7)Transformations used are: cbind() and rbind() for merging columns and rows respectivly.
+  gsub()-to recognize pattern and substitute with some different pattern.
+  read.table-to read a data set into R.
+  grep()-to search pattern.
+  ddply()-to perform action group by the subject and activity.
+  colmeans()-get the average of a each column.
+
 
 
 
