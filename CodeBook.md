@@ -4,7 +4,7 @@
 1)Subject-The Experiment is carried out on 30 different persons ,Hence the number from 1-30 represent 
           30 different Persons or experimental Object.
 
-2)Activity-Activity performed when the measurements where calculated,  below are the type of activities.
+2)Activity-Activity performed when the measurements where calculated, below are the type of activities.
 
           1 WALKING 
 
@@ -17,6 +17,8 @@
           5 STANDING
           
 6 LAYING
+
+
 
 
 3) Measurements:-
