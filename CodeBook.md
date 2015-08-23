@@ -13,7 +13,8 @@
           3 WALKING_DOWNSTAIRS
 
           4 SITTING
-5 STANDING
+
+          5 STANDING
           
 6 LAYING
 
@@ -23,7 +24,7 @@
 
   tBodyAcc_mean_X              /tBodyAcc_mean_Y               /tBodyAcc_mean_Z               /tBodyAcc_std_X                /tBodyAcc_std_Y               
   tBodyAcc_std_Z               /tGravityAcc_mean_X           /tGravityAcc_mean_Y            /tGravityAcc_mean_Z            /tGravityAcc_std_X            
- tGravityAcc_std_Y             /tGravityAcc_std_Z             /tBodyAccJerk_mean_X           /tBodyAccJerk_mean_Y           /tBodyAccJerk_mean_Z          
+ tGravityAcc_std_Y             /tGravityAc_std_Z             /tBodyAccJerk_mean_X           /tBodyAccJerk_mean_Y           /tBodyAccJerk_mean_Z          
  tBodyAccJerk_std_X            /tBodyAccJerk_std_Y            /tBodyAccJerk_std_Z            /tBodyGyro_mean_X              /tBodyGyro_mean_Y             
  tBodyGyro_mean_Z              /tBodyGyro_std_X               /tBodyGyro_std_Y               /tBodyGyro_std_Z               /tBodyGyroJerk_mean_X         
  tBodyGyroJerk_mean_Y          /tBodyGyroJerk_mean_Z          /tBodyGyroJerk_std_X           /tBodyGyroJerk_std_Y           /tBodyGyroJerk_std_Z          
